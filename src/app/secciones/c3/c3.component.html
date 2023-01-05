@@ -1,6 +1,6 @@
 <section>
     <div>
-        <input type="text" id="nombre" class="bg-gray-50 border border-gray-300 text-gray-900"  placeholder="Ingrese nonbre de Tarea">
+        <input type="text" ngModel="nombre" id="nombre" class="bg-gray-50 border border-gray-300 text-gray-900"  placeholder="Ingrese nonbre de Tarea">
     </div>
     <div class="mt-4">
         <textarea cols="30" rows="10" placeholder="Ingrese descripcion" class="block p-2.5 w-full text-sm text-gray-900"></textarea>
@@ -9,4 +9,5 @@
         <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
             Guardar</button>
     </div>
+    <p>{{nombre}}</p>
 </section>

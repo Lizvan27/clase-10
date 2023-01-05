@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./c4.component.css']
 })
 export class C4Component {
-
+  nombre! : String;
 }

@@ -5,5 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './c3.component.html',
 })
 export class C3Component {
+  nombre ! :String;
 
 }
